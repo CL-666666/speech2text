@@ -1,0 +1,948 @@
+04/27/2021 17:02:32 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 17:13:51 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 17:14:41 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 17:17:20 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 17:17:25 PM - INFO - 127.0.0.1 - - [27/Apr/2021 17:17:25] "[33mGET /d HTTP/1.1[0m" 404 -
+04/27/2021 17:18:22 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 17:18:31 PM - INFO - 127.0.0.1 - - [27/Apr/2021 17:18:31] "[33mGET /d HTTP/1.1[0m" 404 -
+04/27/2021 17:18:40 PM - INFO - 127.0.0.1 - - [27/Apr/2021 17:18:40] "[33mGET /d HTTP/1.1[0m" 404 -
+04/27/2021 17:18:47 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 17:18:50 PM - INFO - 127.0.0.1 - - [27/Apr/2021 17:18:50] "[33mGET /d HTTP/1.1[0m" 404 -
+04/27/2021 17:18:56 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 17:18:59 PM - INFO - 127.0.0.1 - - [27/Apr/2021 17:18:59] "[33mGET /d HTTP/1.1[0m" 404 -
+04/27/2021 17:19:14 PM - INFO - 127.0.0.1 - - [27/Apr/2021 17:19:14] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 17:19:22 PM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/speech2text/kafka_simulate/run.py", line 12, in run
+    ftp.download_file(local_path, path, filename)
+  File "F:\speech2text\ftp_download1.py", line 40, in download_file
+    self.ftp.cwd(remotepath)  # 要登录的ftp目录
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 614, in cwd
+    return self.voidcmd(cmd)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 280, in voidcmd
+    return self.voidresp()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 253, in voidresp
+    resp = self.getresp()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 248, in getresp
+    raise error_perm(resp)
+ftplib.error_perm: 550 CWD command failed. "speech2text": directory not found.
+04/27/2021 17:19:22 PM - INFO - 127.0.0.1 - - [27/Apr/2021 17:19:22] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/27/2021 17:39:28 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 17:39:34 PM - INFO - 127.0.0.1 - - [27/Apr/2021 17:39:34] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 17:40:05 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 17:40:14 PM - INFO - 127.0.0.1 - - [27/Apr/2021 17:40:14] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 17:49:13 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 17:49:18 PM - INFO - 127.0.0.1 - - [27/Apr/2021 17:49:18] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 17:50:24 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 17:50:27 PM - INFO - 127.0.0.1 - - [27/Apr/2021 17:50:27] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 17:50:52 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 17:50:57 PM - INFO - 127.0.0.1 - - [27/Apr/2021 17:50:57] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 17:52:17 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 17:52:24 PM - INFO - 127.0.0.1 - - [27/Apr/2021 17:52:24] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 17:53:03 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 17:53:06 PM - INFO - 127.0.0.1 - - [27/Apr/2021 17:53:06] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 17:53:22 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 17:53:28 PM - INFO - 127.0.0.1 - - [27/Apr/2021 17:53:28] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 18:11:01 PM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/speech2text/kafka_simulate/run.py", line 12, in run
+    ftp.download_file(local_path, path, filename)
+  File "F:\speech2text\ftp_download1.py", line 44, in download_file
+    self.ftp.cwd(remotepath)  # 要登录的ftp目录
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 614, in cwd
+    return self.voidcmd(cmd)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 279, in voidcmd
+    self.putcmd(cmd)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 201, in putcmd
+    self.putline(line)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 196, in putline
+    self.sock.sendall(line.encode(self.encoding))
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+04/27/2021 18:11:01 PM - INFO - 127.0.0.1 - - [27/Apr/2021 18:11:01] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/27/2021 18:11:01 PM - INFO - 127.0.0.1 - - [27/Apr/2021 18:11:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+04/27/2021 18:11:18 PM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/speech2text/kafka_simulate/run.py", line 12, in run
+    ftp.download_file(local_path, path, filename)
+  File "F:\speech2text\ftp_download1.py", line 44, in download_file
+    self.ftp.cwd(remotepath)  # 要登录的ftp目录
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 614, in cwd
+    return self.voidcmd(cmd)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 279, in voidcmd
+    self.putcmd(cmd)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 201, in putcmd
+    self.putline(line)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 196, in putline
+    self.sock.sendall(line.encode(self.encoding))
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+04/27/2021 18:11:18 PM - INFO - 127.0.0.1 - - [27/Apr/2021 18:11:18] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/27/2021 18:11:42 PM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/speech2text/kafka_simulate/run.py", line 12, in run
+    ftp.download_file(local_path, path, filename)
+  File "F:\speech2text\ftp_download1.py", line 44, in download_file
+    self.ftp.cwd(remotepath)  # 要登录的ftp目录
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 614, in cwd
+    return self.voidcmd(cmd)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 279, in voidcmd
+    self.putcmd(cmd)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 201, in putcmd
+    self.putline(line)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 196, in putline
+    self.sock.sendall(line.encode(self.encoding))
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+04/27/2021 18:11:42 PM - INFO - 127.0.0.1 - - [27/Apr/2021 18:11:42] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/27/2021 18:11:51 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 18:11:57 PM - INFO - 127.0.0.1 - - [27/Apr/2021 18:11:57] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 18:17:44 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 18:18:01 PM - INFO - 127.0.0.1 - - [27/Apr/2021 18:18:01] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 18:21:24 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 18:22:19 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 18:22:23 PM - INFO - 127.0.0.1 - - [27/Apr/2021 18:22:23] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 18:22:32 PM - INFO - 127.0.0.1 - - [27/Apr/2021 18:22:32] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 18:22:49 PM - INFO - 127.0.0.1 - - [27/Apr/2021 18:22:49] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 18:24:50 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 18:24:57 PM - INFO - 127.0.0.1 - - [27/Apr/2021 18:24:57] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 18:25:10 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 18:25:16 PM - INFO - 127.0.0.1 - - [27/Apr/2021 18:25:16] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 18:25:48 PM - INFO - 127.0.0.1 - - [27/Apr/2021 18:25:48] "[33mGET / HTTP/1.1[0m" 404 -
+04/27/2021 18:26:18 PM - INFO - 127.0.0.1 - - [27/Apr/2021 18:26:18] "[33mGET /sss HTTP/1.1[0m" 404 -
+04/27/2021 18:26:44 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 18:27:03 PM - INFO - 127.0.0.1 - - [27/Apr/2021 18:27:03] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 18:27:03 PM - INFO - 127.0.0.1 - - [27/Apr/2021 18:27:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+04/27/2021 18:27:58 PM - INFO - 127.0.0.1 - - [27/Apr/2021 18:27:58] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 20:29:10 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 20:29:26 PM - INFO - 127.0.0.1 - - [27/Apr/2021 20:29:26] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 20:29:26 PM - INFO - 127.0.0.1 - - [27/Apr/2021 20:29:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+04/27/2021 20:29:51 PM - INFO - 127.0.0.1 - - [27/Apr/2021 20:29:51] "[33mGET /download/ HTTP/1.1[0m" 404 -
+04/27/2021 20:30:06 PM - INFO - 127.0.0.1 - - [27/Apr/2021 20:30:06] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 20:30:15 PM - INFO - 127.0.0.1 - - [27/Apr/2021 20:30:15] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 20:32:03 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 20:32:13 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/27/2021 20:32:16 PM - INFO - 127.0.0.1 - - [27/Apr/2021 20:32:16] "[33mGET /download HTTP/1.1[0m" 404 -
+04/27/2021 21:26:24 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 00:49:34 AM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 00:49:57 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 00:50:03 AM - INFO - 127.0.0.1 - - [28/Apr/2021 00:50:03] "[33mGET / HTTP/1.1[0m" 404 -
+04/28/2021 00:50:03 AM - INFO - 127.0.0.1 - - [28/Apr/2021 00:50:03] "[33mGET / HTTP/1.1[0m" 404 -
+04/28/2021 00:50:20 AM - INFO - 127.0.0.1 - - [28/Apr/2021 00:50:20] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 00:51:21 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 00:51:26 AM - INFO - 127.0.0.1 - - [28/Apr/2021 00:51:26] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 00:52:29 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 00:52:34 AM - INFO - 127.0.0.1 - - [28/Apr/2021 00:52:34] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 09:35:05 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 09:35:12 AM - INFO - 127.0.0.1 - - [28/Apr/2021 09:35:12] "[33mGET / HTTP/1.1[0m" 404 -
+04/28/2021 09:35:12 AM - INFO - 127.0.0.1 - - [28/Apr/2021 09:35:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+04/28/2021 09:35:21 AM - INFO - 127.0.0.1 - - [28/Apr/2021 09:35:21] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 09:36:14 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 09:36:21 AM - INFO - 127.0.0.1 - - [28/Apr/2021 09:36:21] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 09:37:13 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 09:37:16 AM - INFO - 127.0.0.1 - - [28/Apr/2021 09:37:16] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 09:37:40 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 09:37:43 AM - INFO - 127.0.0.1 - - [28/Apr/2021 09:37:43] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 09:44:06 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 09:44:12 AM - INFO - 127.0.0.1 - - [28/Apr/2021 09:44:12] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 09:44:22 AM - INFO - 127.0.0.1 - - [28/Apr/2021 09:44:22] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 09:46:34 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 09:46:37 AM - INFO - 127.0.0.1 - - [28/Apr/2021 09:46:37] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 10:02:00 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:02:05 AM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: run() missing 1 required positional argument: 'filename'
+04/28/2021 10:02:05 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:02:05] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 10:02:17 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:02:20 AM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 10:02:20 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:02:20] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 10:02:41 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:02:48 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:02:48] "[37mGET /download HTTP/1.1[0m" 200 -
+04/28/2021 10:03:15 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:03:20 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:03:20] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 10:03:49 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:03:52 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:03:52] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 10:04:43 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:04:48 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:04:48] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 10:04:58 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:05:00 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:05:00] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 10:05:17 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:05:19 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:05:19] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 10:05:40 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:05:43 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:05:43] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 10:06:19 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:06:29 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:06:29] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 10:07:04 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:07:28 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:07:28] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 10:07:45 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:07:45] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 10:07:54 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:07:54] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 10:08:33 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:08:35 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:08:35] "[37mGET /download HTTP/1.1[0m" 200 -
+04/28/2021 10:08:42 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:08:42] "[37mGET /download HTTP/1.1[0m" 200 -
+04/28/2021 10:09:33 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:09:39 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:09:39] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 10:43:25 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:43:25] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 10:43:53 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:43:53] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 10:44:07 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:44:07] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 10:45:46 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:45:46] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 10:47:05 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:47:05] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 10:47:58 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:47:58] "[33mGET /download/log.txt HTTP/1.1[0m" 404 -
+04/28/2021 10:48:13 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:48:13] "[33mGET /download/log.txt/ HTTP/1.1[0m" 404 -
+04/28/2021 10:48:16 AM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/speech2text/kafka_simulate/run.py", line 12, in run
+    ftp.download_file(local_path, path, filename)
+  File "F:\speech2text\ftp_download1.py", line 44, in download_file
+    self.ftp.cwd(remotepath)  # 要登录的ftp目录
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 614, in cwd
+    return self.voidcmd(cmd)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 279, in voidcmd
+    self.putcmd(cmd)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 201, in putcmd
+    self.putline(line)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\ftplib.py", line 196, in putline
+    self.sock.sendall(line.encode(self.encoding))
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+04/28/2021 10:48:16 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:48:16] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 10:49:24 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:49:24] "[33mGET /download/log.txt HTTP/1.1[0m" 404 -
+04/28/2021 10:49:55 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:50:37 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:51:06 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:51:30 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:51:47 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:52:01 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:52:04 AM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 10:52:04 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:52:04] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 10:52:16 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:52:20 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:52:20] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 10:53:49 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:53:49] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 10:54:27 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:54:33 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:54:37 AM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 10:54:37 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:54:37] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 10:55:36 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:55:36 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:55:36] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 10:55:44 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:55:53 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 10:55:57 AM - INFO - 127.0.0.1 - - [28/Apr/2021 10:55:57] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 11:01:16 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 11:01:19 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:01:19] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 11:03:30 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:03:30] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:04:01 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:04:01] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:04:34 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:04:34] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:04:54 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:04:54] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:04:54 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:04:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+04/28/2021 11:05:28 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:05:28] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:06:36 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:06:36] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:06:37 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:06:37] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:06:37 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:06:37] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:06:37 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:06:37] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:06:37 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:06:37] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:06:37 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:06:37] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:06:37 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:06:37] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:06:38 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:06:38] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:06:38 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:06:38] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:06:38 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:06:38] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:06:38 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:06:38] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:06:38 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:06:38] "[33mGET /download/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 11:08:56 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 11:09:09 AM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/speech2text/kafka_simulate/run.py", line 25, in run
+    copy(local_path + filename)
+  File "F:\speech2text\file_copy.py", line 29, in copy
+    send_from_directory(app.config[local_path], filename=new_file, as_attachment=True)
+KeyError: 'f:\\speech2text\\test\\requirements.txt'
+04/28/2021 11:09:09 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:09:09] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 11:10:18 AM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/speech2text/kafka_simulate/run.py", line 25, in run
+    copy(local_path + filename)
+  File "F:\speech2text\file_copy.py", line 29, in copy
+    send_from_directory(app.config[local_path], filename=new_file, as_attachment=True)
+KeyError: 'f:\\speech2text\\test\\requirements.txt'
+04/28/2021 11:10:18 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:10:18] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 11:10:38 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 11:10:41 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:10:41] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 11:10:46 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:10:46] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 11:10:55 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:10:55] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 11:10:55 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:10:55] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 11:10:56 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:10:56] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 11:10:56 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:10:56] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 11:10:56 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:10:56] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 11:10:56 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:10:56] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 11:10:58 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 11:11:00 AM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 11:11:00 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:11:00] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 11:11:00 AM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 11:11:00 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:11:00] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 11:11:01 AM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 11:11:01 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:11:01] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 11:11:01 AM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 11:11:01 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:11:01] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 11:11:01 AM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 11:11:01 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:11:01] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 11:11:01 AM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 11:11:01 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:11:01] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 11:11:01 AM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 11:11:01 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:11:01] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 11:11:01 AM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 11:11:01 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:11:01] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 11:20:21 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 11:25:20 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:25:20] "[33mGET /download/test.py HTTP/1.1[0m" 404 -
+04/28/2021 11:26:09 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:26:09] "[33mGET /download/test.py HTTP/1.1[0m" 404 -
+04/28/2021 11:26:12 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:26:12] "[33mGET /download/test.py HTTP/1.1[0m" 404 -
+04/28/2021 11:26:21 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:26:21] "[33mGET /download/test.py HTTP/1.1[0m" 404 -
+04/28/2021 11:26:54 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:26:54] "[33mGET /download/test.py HTTP/1.1[0m" 404 -
+04/28/2021 11:27:19 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:27:19] "[33mGET /download/test.py HTTP/1.1[0m" 404 -
+04/28/2021 11:27:57 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:27:57] "[33mGET /download/test.py HTTP/1.1[0m" 404 -
+04/28/2021 11:32:39 AM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 11:33:02 AM - INFO - 127.0.0.1 - - [28/Apr/2021 11:33:02] "[33mGET /download/ HTTP/1.1[0m" 404 -
+04/28/2021 13:58:21 PM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 13:58:24 PM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 13:58:50 PM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 13:59:12 PM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 13:59:24 PM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 13:59:42 PM - INFO - 127.0.0.1 - - [28/Apr/2021 13:59:42] "[33mGET /download/ HTTP/1.1[0m" 404 -
+04/28/2021 14:00:01 PM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 14:00:04 PM - INFO - 127.0.0.1 - - [28/Apr/2021 14:00:04] "[33mGET /download/ HTTP/1.1[0m" 404 -
+04/28/2021 14:01:07 PM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 14:01:24 PM - INFO - 127.0.0.1 - - [28/Apr/2021 14:01:24] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 14:01:24 PM - INFO - 127.0.0.1 - - [28/Apr/2021 14:01:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+04/28/2021 14:03:12 PM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 14:03:16 PM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 14:03:20 PM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 14:03:29 PM - INFO - 127.0.0.1 - - [28/Apr/2021 14:03:29] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 14:04:23 PM - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/28/2021 14:04:34 PM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 14:04:34 PM - INFO - 127.0.0.1 - - [28/Apr/2021 14:04:34] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 14:05:02 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:05:41 PM - INFO - 127.0.0.1 - - [28/Apr/2021 14:05:41] "[35m[1mGET /download/test.py HTTP/1.1[0m" 500 -
+04/28/2021 14:05:41 PM - ERROR - Error on request:
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+  File "F:\speech2text\test.py", line 11, in send_file
+    with open(store_path, 'rb') as targetfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'f:/speech2text/test/test.py'
+04/28/2021 14:05:58 PM - INFO - 127.0.0.1 - - [28/Apr/2021 14:05:58] "[37mGET /download/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 14:06:22 PM - INFO - 192.168.5.204 - - [28/Apr/2021 14:06:22] "[35m[1mGET /download/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 14:06:22 PM - ERROR - Error on request:
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+  File "F:\speech2text\test.py", line 11, in send_file
+    with open(store_path, 'rb') as targetfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'f:/speech2text/test/requirements.txt'
+04/28/2021 14:06:56 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:07:00 PM - INFO - 192.168.5.204 - - [28/Apr/2021 14:07:00] "[35m[1mGET /download/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 14:07:00 PM - ERROR - Error on request:
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+  File "F:\speech2text\test.py", line 11, in send_file
+    with open(store_path, 'rb') as targetfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'f:/speech2text/test/requirements.txt'
+04/28/2021 14:07:17 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:07:33 PM - INFO - 192.168.5.204 - - [28/Apr/2021 14:07:33] "[35m[1mGET /download/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 14:07:33 PM - ERROR - Error on request:
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+  File "F:\speech2text\test.py", line 11, in send_file
+    with open(store_path, 'rb') as targetfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'f:/speech2text/test/requirements.txt'
+04/28/2021 14:08:02 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:08:27 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:08:40 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:09:16 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:09:22 PM - INFO - 192.168.5.204 - - [28/Apr/2021 14:09:22] "[35m[1mGET /download/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 14:09:22 PM - ERROR - Error on request:
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+  File "F:\speech2text\test.py", line 11, in send_file
+    with open(store_path, 'rb') as targetfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'f:/speech2text/test/requirements.txt'
+04/28/2021 14:17:33 PM - INFO - 127.0.0.1 - - [28/Apr/2021 14:17:33] "[33mGET / HTTP/1.1[0m" 404 -
+04/28/2021 14:17:42 PM - INFO - 127.0.0.1 - - [28/Apr/2021 14:17:42] "[33mGET / HTTP/1.1[0m" 404 -
+04/28/2021 14:18:15 PM - INFO - 127.0.0.1 - - [28/Apr/2021 14:18:15] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 14:18:23 PM - INFO - 127.0.0.1 - - [28/Apr/2021 14:18:23] "[35m[1mGET /download/test.py HTTP/1.1[0m" 500 -
+04/28/2021 14:18:23 PM - ERROR - Error on request:
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+  File "F:\speech2text\test.py", line 11, in send_file
+    with open(store_path, 'rb') as targetfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'f:/speech2text/test/test.py'
+04/28/2021 14:30:37 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:31:57 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:32:07 PM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 14:32:07 PM - INFO - 192.168.5.204 - - [28/Apr/2021 14:32:07] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 14:33:24 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:33:27 PM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 14:33:27 PM - INFO - 192.168.5.204 - - [28/Apr/2021 14:33:27] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 14:34:19 PM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 14:34:19 PM - INFO - 192.168.5.204 - - [28/Apr/2021 14:34:19] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 14:34:45 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:34:49 PM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 14:34:49 PM - INFO - 192.168.5.204 - - [28/Apr/2021 14:34:49] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 14:36:46 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:36:50 PM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 14:36:50 PM - INFO - 192.168.5.204 - - [28/Apr/2021 14:36:50] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 14:38:35 PM - ERROR - Exception on /download [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 14:38:35 PM - INFO - 192.168.5.204 - - [28/Apr/2021 14:38:35] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 14:39:07 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:39:22 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:39:27 PM - INFO - 192.168.5.204 - - [28/Apr/2021 14:39:27] "[33mGET /download HTTP/1.1[0m" 404 -
+04/28/2021 14:39:45 PM - INFO - 192.168.5.204 - - [28/Apr/2021 14:39:45] "[35m[1mGET /download/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 14:39:45 PM - ERROR - Error on request:
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+  File "F:\speech2text\test.py", line 11, in send_file
+    with open(store_path, 'rb') as targetfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'f:/speech2text/test/requirements.txt'
+04/28/2021 14:40:15 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:40:29 PM - INFO - 192.168.5.204 - - [28/Apr/2021 14:40:29] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+04/28/2021 14:40:29 PM - ERROR - Error on request:
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+  File "F:\speech2text\test.py", line 11, in send_file
+    with open(store_path, 'rb') as targetfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'f:/speech2text/test/requirements.txt'
+04/28/2021 15:00:17 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:00:39 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:00:39] "[33mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 15:02:15 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:02:15] "[33mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 15:02:34 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:02:38 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:02:38] "[33mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 15:04:13 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:04:16 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:04:16] "[33mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 15:05:26 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:06:34 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:06:34] "[33mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 15:06:34 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:06:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+04/28/2021 15:09:45 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:10:03 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:10:03] "[33mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 15:16:28 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:16:28] "[33mGET /test/1 HTTP/1.1[0m" 404 -
+04/28/2021 15:16:32 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:16:32] "[33mGET /test/1 HTTP/1.1[0m" 404 -
+04/28/2021 15:39:34 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:40:54 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:41:26 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:42:10 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:42:22 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:42:22] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 15:42:47 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:42:49 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:42:49] "[33mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 15:43:04 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:43:06 PM - ERROR - Exception on /download/ftp://127.0.0.1/speech2text/requirements.txt [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 15:43:06 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:43:06] "[35m[1mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 15:43:24 PM - ERROR - Exception on /download/ftp://127.0.0.1/speech2text/requirements.txt [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 15:43:24 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:43:24] "[35m[1mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 15:44:29 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:44:33 PM - ERROR - Exception on /download/ftp://127.0.0.1/speech2text/requirements.txt [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 15:44:33 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:44:33] "[35m[1mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 15:44:41 PM - ERROR - Exception on /download/ftp://127.0.0.1/speech2text/requirements.txt [GET]
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+04/28/2021 15:44:41 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:44:41] "[35m[1mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 15:47:21 PM - INFO -  * Restarting with stat
+04/28/2021 15:47:21 PM - WARNING -  * Debugger is active!
+04/28/2021 15:47:21 PM - INFO -  * Debugger PIN: 229-761-543
+04/28/2021 15:47:21 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:47:29 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:47:29] "[35m[1mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 15:47:29 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:47:29] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+04/28/2021 15:47:29 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:47:29] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+04/28/2021 15:47:29 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:47:29] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+04/28/2021 15:47:29 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:47:29] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+04/28/2021 15:47:29 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:47:29] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+04/28/2021 15:47:29 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:47:29] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+04/28/2021 15:48:05 PM - INFO -  * Restarting with stat
+04/28/2021 15:48:06 PM - WARNING -  * Debugger is active!
+04/28/2021 15:48:06 PM - INFO -  * Debugger PIN: 229-761-543
+04/28/2021 15:48:06 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:48:10 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:48:10] "[35m[1mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 15:48:10 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:48:10] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+04/28/2021 15:48:10 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:48:10] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+04/28/2021 15:48:10 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:48:10] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+04/28/2021 15:48:10 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:48:10] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+04/28/2021 15:48:10 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:48:10] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+04/28/2021 15:48:10 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:48:10] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+04/28/2021 15:48:39 PM - INFO -  * Restarting with stat
+04/28/2021 15:48:40 PM - WARNING -  * Debugger is active!
+04/28/2021 15:48:40 PM - INFO -  * Debugger PIN: 229-761-543
+04/28/2021 15:48:40 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:48:42 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:48:42] "[35m[1mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 15:48:42 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:48:42] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+04/28/2021 15:48:42 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:48:42] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+04/28/2021 15:48:42 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:48:42] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+04/28/2021 15:48:42 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:48:42] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+04/28/2021 15:48:42 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:48:42] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+04/28/2021 15:48:42 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:48:42] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+04/28/2021 15:49:25 PM - INFO -  * Detected change in 'F:\\speech2text\\kafka_simulate\\run.py', reloading
+04/28/2021 15:49:25 PM - INFO -  * Restarting with stat
+04/28/2021 15:49:25 PM - WARNING -  * Debugger is active!
+04/28/2021 15:49:25 PM - INFO -  * Debugger PIN: 229-761-543
+04/28/2021 15:49:25 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:49:26 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:49:26] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 15:50:20 PM - INFO -  * Detected change in 'F:\\speech2text\\kafka_simulate\\run.py', reloading
+04/28/2021 15:50:20 PM - INFO -  * Restarting with stat
+04/28/2021 15:50:20 PM - WARNING -  * Debugger is active!
+04/28/2021 15:50:20 PM - INFO -  * Debugger PIN: 229-761-543
+04/28/2021 15:50:20 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:50:20 PM - INFO - 127.0.0.1 - - [28/Apr/2021 15:50:20] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 15:50:30 PM - INFO -  * Detected change in 'F:\\speech2text\\kafka_simulate\\run.py', reloading
+04/28/2021 15:50:31 PM - INFO -  * Restarting with stat
+04/28/2021 15:50:31 PM - WARNING -  * Debugger is active!
+04/28/2021 15:50:31 PM - INFO -  * Debugger PIN: 229-761-543
+04/28/2021 15:50:31 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:50:40 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:50:40] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 15:51:26 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:51:26] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 15:51:49 PM - INFO -  * Detected change in 'F:\\speech2text\\kafka_simulate\\run.py', reloading
+04/28/2021 15:51:49 PM - INFO -  * Restarting with stat
+04/28/2021 15:51:49 PM - WARNING -  * Debugger is active!
+04/28/2021 15:51:49 PM - INFO -  * Debugger PIN: 229-761-543
+04/28/2021 15:51:49 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:52:05 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:52:05] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 15:53:36 PM - INFO -  * Detected change in 'F:\\speech2text\\kafka_simulate\\run.py', reloading
+04/28/2021 15:53:36 PM - INFO -  * Restarting with stat
+04/28/2021 15:53:37 PM - WARNING -  * Debugger is active!
+04/28/2021 15:53:37 PM - INFO -  * Debugger PIN: 229-761-543
+04/28/2021 15:53:37 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:53:38 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:53:38] "[35m[1mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 15:53:40 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:53:40] "[35m[1mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 15:53:49 PM - INFO -  * Detected change in 'F:\\speech2text\\kafka_simulate\\run.py', reloading
+04/28/2021 15:53:49 PM - INFO -  * Restarting with stat
+04/28/2021 15:53:49 PM - WARNING -  * Debugger is active!
+04/28/2021 15:53:49 PM - INFO -  * Debugger PIN: 229-761-543
+04/28/2021 15:53:49 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:54:03 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:54:03] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 15:54:16 PM - INFO -  * Detected change in 'F:\\speech2text\\kafka_simulate\\run.py', reloading
+04/28/2021 15:54:16 PM - INFO -  * Restarting with stat
+04/28/2021 15:54:17 PM - WARNING -  * Debugger is active!
+04/28/2021 15:54:17 PM - INFO -  * Debugger PIN: 229-761-543
+04/28/2021 15:54:17 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:54:17 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:54:17] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 15:54:22 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:54:22] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 15:56:52 PM - INFO -  * Detected change in 'F:\\speech2text\\kafka_simulate\\run.py', reloading
+04/28/2021 15:56:52 PM - INFO -  * Restarting with stat
+04/28/2021 15:56:52 PM - WARNING -  * Debugger is active!
+04/28/2021 15:56:52 PM - INFO -  * Debugger PIN: 229-761-543
+04/28/2021 15:56:52 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:56:55 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:56:55] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 15:56:57 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:56:57] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 15:57:25 PM - INFO -  * Detected change in 'F:\\speech2text\\kafka_simulate\\run.py', reloading
+04/28/2021 15:57:25 PM - INFO -  * Restarting with stat
+04/28/2021 15:57:25 PM - WARNING -  * Debugger is active!
+04/28/2021 15:57:25 PM - INFO -  * Debugger PIN: 229-761-543
+04/28/2021 15:57:25 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:59:27 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 15:59:37 PM - INFO - 192.168.5.204 - - [28/Apr/2021 15:59:37] "[33mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 16:00:13 PM - INFO - 192.168.5.204 - - [28/Apr/2021 16:00:13] "[33mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 16:00:17 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 16:00:19 PM - INFO - 192.168.5.204 - - [28/Apr/2021 16:00:19] "[33mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 16:00:34 PM - INFO - 192.168.5.204 - - [28/Apr/2021 16:00:34] "[33mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 16:01:02 PM - INFO - 192.168.5.204 - - [28/Apr/2021 16:01:02] "[33mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 404 -
+04/28/2021 16:01:08 PM - INFO -  * Restarting with stat
+04/28/2021 16:01:08 PM - WARNING -  * Debugger is active!
+04/28/2021 16:01:08 PM - INFO -  * Debugger PIN: 229-761-543
+04/28/2021 16:01:08 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 16:01:12 PM - INFO - 192.168.5.204 - - [28/Apr/2021 16:01:12] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 16:01:14 PM - INFO - 192.168.5.204 - - [28/Apr/2021 16:01:14] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 16:01:23 PM - INFO - 192.168.5.204 - - [28/Apr/2021 16:01:23] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 16:02:02 PM - INFO - 192.168.5.204 - - [28/Apr/2021 16:02:02] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 16:03:29 PM - INFO - 192.168.5.204 - - [28/Apr/2021 16:03:29] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 16:28:00 PM - INFO -  * Restarting with stat
+04/28/2021 16:28:00 PM - WARNING -  * Debugger is active!
+04/28/2021 16:28:00 PM - INFO -  * Debugger PIN: 229-761-543
+04/28/2021 16:28:00 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 16:28:13 PM - INFO - 192.168.5.204 - - [28/Apr/2021 16:28:13] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 16:28:16 PM - INFO - 192.168.5.204 - - [28/Apr/2021 16:28:16] "[37mGET /download/ftp://127.0.0.1/speech2text/requirements.txt HTTP/1.1[0m" 200 -
+04/28/2021 16:28:29 PM - INFO -  * Detected change in 'F:\\speech2text\\kafka_simulate\\run.py', reloading
+04/28/2021 16:28:29 PM - INFO -  * Restarting with stat
+04/28/2021 16:28:30 PM - WARNING -  * Debugger is active!
+04/28/2021 16:28:30 PM - INFO -  * Debugger PIN: 229-761-543
+04/28/2021 16:28:30 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/30/2021 09:58:38 AM - INFO -  * Restarting with stat
+04/30/2021 09:58:38 AM - WARNING -  * Debugger is active!
+04/30/2021 09:58:38 AM - INFO -  * Debugger PIN: 229-761-543
+04/30/2021 09:58:38 AM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/30/2021 09:58:52 AM - INFO - 192.168.5.204 - - [30/Apr/2021 09:58:52] "[33mGET /download/speech2text/speech/SH-20210409-180639-013842937141-6961-8871.wav HTTP/1.1[0m" 404 -
+04/30/2021 10:00:42 AM - INFO - 192.168.5.204 - - [30/Apr/2021 10:00:42] "[33mGET /download/http://192.168.5.204:5000/speech2text/speech/SH-20210409-180639-013842937141-6961-8871.wav HTTP/1.1[0m" 404 -
+04/30/2021 10:06:59 AM - INFO - 192.168.5.204 - - [30/Apr/2021 10:06:59] "[37mGET /download/ftp://127.0.0.1/speech2text/speech/SH-20210409-180639-013842937141-6961-8871.wav HTTP/1.1[0m" 200 -
+04/30/2021 10:11:03 AM - INFO - 192.168.5.204 - - [30/Apr/2021 10:11:03] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio00.pcm HTTP/1.1[0m" 200 -
+04/30/2021 10:11:03 AM - INFO - 192.168.5.204 - - [30/Apr/2021 10:11:03] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio01.pcm HTTP/1.1[0m" 200 -
+04/30/2021 10:11:03 AM - INFO - 192.168.5.204 - - [30/Apr/2021 10:11:03] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio02.pcm HTTP/1.1[0m" 200 -
+04/30/2021 10:12:56 AM - INFO - 192.168.5.204 - - [30/Apr/2021 10:12:56] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio00.pcm HTTP/1.1[0m" 200 -
+04/30/2021 10:12:56 AM - INFO - 192.168.5.204 - - [30/Apr/2021 10:12:56] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio01.pcm HTTP/1.1[0m" 200 -
+04/30/2021 10:12:56 AM - INFO - 192.168.5.204 - - [30/Apr/2021 10:12:56] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio02.pcm HTTP/1.1[0m" 200 -
+04/30/2021 10:13:50 AM - INFO - 192.168.5.204 - - [30/Apr/2021 10:13:50] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio00.pcm HTTP/1.1[0m" 200 -
+04/30/2021 10:13:50 AM - INFO - 192.168.5.204 - - [30/Apr/2021 10:13:50] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio01.pcm HTTP/1.1[0m" 200 -
+04/30/2021 10:13:50 AM - INFO - 192.168.5.204 - - [30/Apr/2021 10:13:50] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio02.pcm HTTP/1.1[0m" 200 -
+04/30/2021 11:10:40 AM - INFO - 192.168.5.204 - - [30/Apr/2021 11:10:40] "[33mGET /download/speech2text/speech/SH-20210409-180639-013842937141-6961-8871.wav HTTP/1.1[0m" 404 -
+04/30/2021 11:10:40 AM - INFO - 192.168.5.204 - - [30/Apr/2021 11:10:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+04/30/2021 11:11:24 AM - INFO - 127.0.0.1 - - [30/Apr/2021 11:11:24] "[33mGET /download/speech2text/speech/SH-20210409-180639-013842937141-6961-8871.wav HTTP/1.1[0m" 404 -
+04/30/2021 11:11:24 AM - INFO - 127.0.0.1 - - [30/Apr/2021 11:11:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+04/30/2021 11:12:04 AM - INFO - 192.168.5.204 - - [30/Apr/2021 11:12:04] "[33mGET /download/download/ftp://127.0.0.1/speech2text/speech2text/out/audio02.pcm HTTP/1.1[0m" 404 -
+04/30/2021 11:12:11 AM - INFO - 192.168.5.204 - - [30/Apr/2021 11:12:11] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio02.pcm HTTP/1.1[0m" 200 -
+04/30/2021 11:17:39 AM - INFO - 192.168.5.204 - - [30/Apr/2021 11:17:39] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio00.pcm HTTP/1.1[0m" 200 -
+04/30/2021 11:17:39 AM - INFO - 192.168.5.204 - - [30/Apr/2021 11:17:39] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio01.pcm HTTP/1.1[0m" 200 -
+04/30/2021 11:17:40 AM - INFO - 192.168.5.204 - - [30/Apr/2021 11:17:40] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio02.pcm HTTP/1.1[0m" 200 -

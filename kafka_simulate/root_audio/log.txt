@@ -1,0 +1,23 @@
+04/30/2021 11:16:57 AM - INFO -  * Restarting with stat
+04/30/2021 11:16:57 AM - WARNING -  * Debugger is active!
+04/30/2021 11:16:57 AM - INFO -  * Debugger PIN: 229-761-543
+04/30/2021 11:16:57 AM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/30/2021 11:18:13 AM - INFO -  * Restarting with stat
+04/30/2021 11:18:13 AM - WARNING -  * Debugger is active!
+04/30/2021 11:18:13 AM - INFO -  * Debugger PIN: 229-761-543
+04/30/2021 11:18:13 AM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/30/2021 11:18:16 AM - INFO - 192.168.5.204 - - [30/Apr/2021 11:18:16] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio00.pcm HTTP/1.1[0m" 200 -
+04/30/2021 11:18:16 AM - INFO - 192.168.5.204 - - [30/Apr/2021 11:18:16] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio01.pcm HTTP/1.1[0m" 200 -
+04/30/2021 11:18:16 AM - INFO - 192.168.5.204 - - [30/Apr/2021 11:18:16] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio02.pcm HTTP/1.1[0m" 200 -
+04/30/2021 11:40:18 AM - INFO - 192.168.5.204 - - [30/Apr/2021 11:40:18] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio00.pcm HTTP/1.1[0m" 200 -
+04/30/2021 11:40:18 AM - INFO - 192.168.5.204 - - [30/Apr/2021 11:40:18] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio01.pcm HTTP/1.1[0m" 200 -
+04/30/2021 11:40:18 AM - INFO - 192.168.5.204 - - [30/Apr/2021 11:40:18] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio02.pcm HTTP/1.1[0m" 200 -
+04/30/2021 11:41:03 AM - INFO - 192.168.5.204 - - [30/Apr/2021 11:41:03] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio00.pcm HTTP/1.1[0m" 200 -
+04/30/2021 11:41:03 AM - INFO - 192.168.5.204 - - [30/Apr/2021 11:41:03] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio01.pcm HTTP/1.1[0m" 200 -
+04/30/2021 11:41:03 AM - INFO - 192.168.5.204 - - [30/Apr/2021 11:41:03] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio02.pcm HTTP/1.1[0m" 200 -
+04/30/2021 13:31:13 PM - INFO - 192.168.5.204 - - [30/Apr/2021 13:31:13] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio00.pcm HTTP/1.1[0m" 200 -
+04/30/2021 13:31:13 PM - INFO - 192.168.5.204 - - [30/Apr/2021 13:31:13] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio01.pcm HTTP/1.1[0m" 200 -
+04/30/2021 13:31:13 PM - INFO - 192.168.5.204 - - [30/Apr/2021 13:31:13] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio02.pcm HTTP/1.1[0m" 200 -
+04/30/2021 13:31:42 PM - INFO - 192.168.5.204 - - [30/Apr/2021 13:31:42] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio00.pcm HTTP/1.1[0m" 200 -
+04/30/2021 13:31:42 PM - INFO - 192.168.5.204 - - [30/Apr/2021 13:31:42] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio01.pcm HTTP/1.1[0m" 200 -
+04/30/2021 13:31:42 PM - INFO - 192.168.5.204 - - [30/Apr/2021 13:31:42] "[37mGET /download/ftp://127.0.0.1/speech2text/speech2text/out/audio02.pcm HTTP/1.1[0m" 200 -

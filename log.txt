@@ -1,0 +1,80 @@
+04/28/2021 13:50:22 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 13:52:31 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 13:53:36 PM - INFO - 192.168.5.204 - - [28/Apr/2021 13:53:36] "[35m[1mGET /download/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 13:53:36 PM - ERROR - Error on request:
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+  File "F:\speech2text\test.py", line 11, in send_file
+    with open(store_path, 'rb') as targetfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'f:/speech2text/test\\requirements.txt'
+04/28/2021 13:53:48 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 13:53:52 PM - INFO - 192.168.5.204 - - [28/Apr/2021 13:53:52] "[35m[1mGET /download/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 13:53:52 PM - ERROR - Error on request:
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+  File "F:\speech2text\test.py", line 11, in send_file
+    with open(store_path, 'rb') as targetfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'f:/speech2text/test\\requirements.txt'
+04/28/2021 13:54:13 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 13:54:18 PM - INFO - 192.168.5.204 - - [28/Apr/2021 13:54:18] "[35m[1mGET /download/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 13:54:18 PM - ERROR - Error on request:
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+  File "F:\speech2text\test.py", line 11, in send_file
+    with open(store_path, 'rb') as targetfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'f:/speech2text/test\\requirements.txt'
+04/28/2021 13:54:47 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 13:54:51 PM - INFO - 192.168.5.204 - - [28/Apr/2021 13:54:51] "[35m[1mGET /download/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 13:54:51 PM - ERROR - Error on request:
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+  File "F:\speech2text\test.py", line 11, in send_file
+    with open(store_path, 'rb') as targetfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'f:/speech2text/test\\requirements.txt'
+04/28/2021 13:55:39 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 13:56:52 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 13:57:01 PM - INFO - 192.168.5.204 - - [28/Apr/2021 13:57:01] "[35m[1mGET /download/requirements.txt HTTP/1.1[0m" 500 -
+04/28/2021 13:57:01 PM - ERROR - Error on request:
+Traceback (most recent call last):
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\serving.py", line 314, in execute
+    for data in application_iter:
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wsgi.py", line 506, in __next__
+    return self._next()
+  File "D:\Users\DELL\anaconda3\envs\speech2text\Lib\site-packages\werkzeug\wrappers\base_response.py", line 45, in _iter_encoded
+    for item in iterable:
+  File "F:\speech2text\test.py", line 11, in send_file
+    with open(store_path, 'rb') as targetfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'f:/speech2text/test\\requirements.txt'
+04/28/2021 14:11:29 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:17:09 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+04/28/2021 14:17:56 PM - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
